@@ -11,7 +11,7 @@ export default function AboutUs() {
           <Row>
             <Col className="reset-padding" xxl={{ span: 1 }}>
               <div className="section-about__label d-flex align-items-center">
-                <img src="square-marker.png" alt="#" />
+                <img src="images/square-marker.png" alt="image" />
                 <p>About us</p>
               </div>
             </Col>

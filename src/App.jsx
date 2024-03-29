@@ -4,6 +4,8 @@ import Welcome from "./sections/Welcome";
 import AboutUs from "./sections/AboutUs";
 import OurWork from "./sections/OurWork";
 import OurProcess from "./sections/OurProcess";
+import SelectedWork from "./sections/SelectedWork";
+import Testimonials from "./sections/Testimonials";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <AboutUs />
       <OurWork />
       <OurProcess />
+      <SelectedWork />
+      <Testimonials />
       <Footer />
     </>
   );

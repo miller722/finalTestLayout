@@ -21,12 +21,9 @@ ul {
   margin: 0;
   padding: 0;
 }
-  /*========================================*/
+/*========================================*/
 
-
-
-
-   /*HEADER=================================*/
+/*HEADER=================================*/
 
 .header {
   padding-top: 12px !important;
@@ -57,15 +54,12 @@ ul {
 .social-media {
   display: flex;
   align-items: center;
-  
 }
 
 .instagram__icon {
   margin-right: 32px;
 }
 /*========================================*/
-
-
 
 /*reusable properties=====================*/
 
@@ -131,11 +125,11 @@ ul {
   padding: 0 4%;
 }
 
-.reset-margin{
+.reset-margin {
   margin: 0 !important;
 }
 
-.reset-padding{
+.reset-padding {
   padding: 0 !important;
 }
 
@@ -154,11 +148,9 @@ ul {
   font-size: 24px;
 }
 
-
 .text-right {
   text-align: right;
 }
-
 
 .heading-primary {
   font-weight: 500;
@@ -171,27 +163,25 @@ ul {
 
 /*========================================*/
 
-
-
 /*SECTION-WELCOME=========================*/
 
-.section-welcome{
+.section-welcome {
   margin-top: 12px;
   border-bottom: 1px solid #1d201f;
   border-top: 1px solid #1d201f;
 }
 
-.section-welcome__design--pb{
+.section-welcome__design--pb {
   position: relative;
   top: 100px;
 }
 
-.section-welcome__row{
+.section-welcome__row {
   height: 600px;
   padding: 75px 0;
 }
 
-.section-welcome__capslock{
+.section-welcome__capslock {
   font-size: 123px;
   white-space: nowrap;
   margin-top: -50px;
@@ -209,16 +199,14 @@ ul {
 
 /*========================================*/
 
-
-
 /*SECTION-ABOUT===========================*/
 
-.section-about{
+.section-about {
   padding-top: 120px;
   padding-bottom: 200px;
 }
 
-.section-about-heading{
+.section-about-heading {
   margin-bottom: 120px;
   padding: 50px 0;
   border-bottom: 1px solid #1d201f;
@@ -228,32 +216,28 @@ ul {
   white-space: nowrap;
 }
 
-
-.section-about__title h2{
+.section-about__title h2 {
   font-size: 60px;
 }
 
 .section-about__label p {
-margin-left: 16px;
-white-space: nowrap;
+  margin-left: 16px;
+  white-space: nowrap;
 }
 
-.section-about__description{
-  margin-top: 80px ;
-
+.section-about__description {
+  margin-top: 80px;
 }
 
-.section-about__description--mr{
+.section-about__description--mr {
   margin-right: 32px;
 }
 
-.section-about__description-p{
-  margin-bottom: 80px ;
+.section-about__description-p {
+  margin-bottom: 80px;
 }
 
 /*========================================*/
-
-
 
 /*SECTION-OURWORK=========================*/
 
@@ -262,7 +246,6 @@ white-space: nowrap;
   position: relative;
 }
 
-
 .section-ourwork__title {
   position: relative;
   top: 40px;
@@ -270,13 +253,14 @@ white-space: nowrap;
   text-align: center;
   width: 75%;
   font-size: 96px;
+  font-weight: 400;
   line-height: 100px;
   z-index: 1000;
 }
 
 .circled-ourwork {
-  background-image: url("circled-ourwork.svg");
-  background-size: cover; 
+  background-image: url("images/circled-ourwork.svg");
+  background-size: cover;
   background-position: center;
 }
 
@@ -287,7 +271,6 @@ white-space: nowrap;
 
 .section-ourwork__cards {
   display: flex;
-
 }
 
 .card__container {
@@ -317,44 +300,40 @@ white-space: nowrap;
 
 /*========================================*/
 
-
-
-
-
-
 /*SECTION-OURPROCESS=======================*/
 
 .section-our-process {
-  padding-top: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .process-step {
   margin-bottom: 64px;
-  padding:  24px 80px 48px 142px;
+  padding: 24px 80px 48px 142px;
   border-bottom: 1px solid #1d201f;
   position: relative;
 }
 
-.wrapper__toggle{
+.wrapper__toggle {
   position: absolute;
   top: 12px;
   right: 0;
 }
 
-.process-step__num{
+.process-step__num {
   position: absolute;
   top: 24px;
   left: 0;
-  color: #FF3C00;
+  color: #ff3c00;
   font-size: 24px;
 }
 
-.process-step__toggle{
+.process-step__toggle {
   position: relative;
   height: 48px;
   width: 48px;
   border-radius: 50%;
-  background-color: #1D201F;
+  background-color: #1d201f;
 }
 .inner-circle {
   position: absolute;
@@ -365,21 +344,21 @@ white-space: nowrap;
 }
 
 .inner-circle:nth-child(1) {
-    top: 14px;
-    left: 50%;
-    transform: translateX(-50%);
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .inner-circle:nth-child(2) {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .inner-circle:nth-child(3) {
-    bottom: 14px;
-    left: 50%;
-    transform: translateX(-50%);
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .process-step__heading {
@@ -387,27 +366,99 @@ white-space: nowrap;
   font-size: 48px;
 }
 
-.process-step__description{
-  padding: 32px;   
+.process-step__description {
+  padding: 32px;
   background-color: #f0f0f0;
   border-radius: 8px;
 }
 
-.process-step__description button{
- margin-top: 64px;
+.process-step__description button {
+  margin-top: 64px;
 }
 
 /*========================================*/
 
+/*SECTION-SELECTED-WORK=====================*/
 
+.section-selected-work {
+}
 
+.selected-work-row {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.selected-work__title {
+  margin-top: 80px;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 100px;
+  margin-bottom: 120px;
+}
+
+.selected-work__item img {
+  border-radius: 8px;
+  /* max-height: 100%;
+  max-width: 100%; */
+}
+
+.more-work-wrapper {
+  border-top: 1px solid #1d201f;
+  width: 253px;
+}
+
+.more-work__description {
+  font-size: 12px;
+  padding: 32px 0;
+}
+
+/*========================================*/
+
+/*SECTION-TESTIMONIALS====================*/
+
+.section-testimonials {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.testimonials__slider {
+  position: relative;
+  margin-top: 80px;
+  width: 75%;
+}
+
+.swiper-slide:not(.swiper-slide-active) .testimonials__slider-description  {
+  opacity: 0.4; 
+}
+
+.testimonials__slider-description {
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.testimonials__avatar{
+  border-radius: 64px;
+}
+
+.testimonials__author{
+  font-size: 34px;
+  margin-left: 32px;
+}
+
+.double-quote-bgc {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+}
+
+/*========================================*/
 
 /*FOOTER==================================*/
 
 .footer {
   width: 100%;
-  padding-top: 120px;
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
   border-top: 1px solid #1d201f;
 }
 

@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function () {
   return (
-    <div className="footer wrapper--grey wrapper--gap">
-      <Container fluid className="reset-margin">
+    <div className="wrapper--grey wrapper--gap">
+      <Container fluid className="footer reset-margin">
         <Row className="d-flex align-items-center">
           <Col xxl={{ span: 3 }}>
             <h5 className="copyright font-size--default">PIPI-POOPOO® ©2022</h5>

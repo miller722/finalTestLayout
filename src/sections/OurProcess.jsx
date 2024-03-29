@@ -7,12 +7,14 @@ export default function OurProcess() {
     <div className="section-our-process wrapper--grey wrapper--gap">
       <Container fluid>
         <Row>
-          <Col className="reset-padding" xxl={{ span: 1 }}>
-            <img src="" alt="" />
-            <p>OUR PROCESS</p>
+          <Col xxl={{ span: 2 }}>
+            <div className="d-flex align-items-center heading-primary pt-4">
+              <img src="images/circle-marker.png" alt="image" />
+              <p>OUR PROCESS</p>
+            </div>
           </Col>
 
-          <Col xxl={{ span: 8, offset: 3 }}>
+          <Col xxl={{ span: 8, offset: 2 }}>
             <ProcessStep
               stepNum="01"
               stepTitle="strategic PLANNING"

@@ -23,7 +23,7 @@ export default function Header() {
         <div className="social-media">
           <img
             className="instagram__icon"
-            src="icon-instagram.png"
+            src="images/icon-instagram.png"
             alt="instagram"
           />
           <ButtonPrimary description="LET'S CHAT" />

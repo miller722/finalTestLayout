@@ -35,11 +35,11 @@ export default function Welcome() {
       </div>
       <div className="section-welcome__design wrapper--grey wrapper--gap section-welcome__design--pb">
         <div>
-          <img className="design-bgc" src="design-bgc.png" alt="#" />
+          <img className="design-bgc" src="images/design-bgc.png" alt="image" />
         </div>
         <div className="d-flex justify-content-between align-items-start mt-3 pb-5">
           <p className="heading-primary d-flex align-items-center">
-            <img src="star.png" alt="" /> FEATURED PROJECT
+            <img src="images/star.png" alt="image" /> FEATURED PROJECT
           </p>
           <p className="heading-primary">KATE ECKSTEIN DESIGN</p>
           <p className="heading-primary">
