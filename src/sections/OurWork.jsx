@@ -12,7 +12,7 @@ export default function OurWork() {
           <p className="heading-primary mt-3">HOW WE WORK</p>
           <h1 className="section-ourwork__title">
             YOUR BUSINESS NEEDS <span className="italic-400">a strategic </span>
-            PLAN, <span className="circled-ourwork"> creative </span>
+            PLAN, <span className="circled-ourwork italic-400"> creative </span>
             EXECUTION, <span className="italic-400">& steady</span> SUPPORT TO
             GROW.
           </h1>

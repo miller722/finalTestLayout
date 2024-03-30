@@ -414,6 +414,9 @@ ul {
 
 /*========================================*/
 
+
+
+
 /*SECTION-TESTIMONIALS====================*/
 
 .section-testimonials {
@@ -452,6 +455,88 @@ ul {
 }
 
 /*========================================*/
+
+
+
+
+/*SECTION-BRAND-REVIEW====================*/
+
+.section-brand-review{
+ padding-top: 48px;
+ padding-bottom: 48px;
+}
+
+.brand-review__title {
+  margin-top: 100px;
+  font-size: 96px;
+}
+
+.brand-review__description {
+  width: 824px;
+}
+
+.circled-brand-review {
+  background-image: url("images/circled-brand-review.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.brand-review-img {
+  border-radius: 8px;
+}
+
+.input-form{
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  8px;
+  border: 1px solid #1d201f;
+  border-radius: 64px;
+  width: 824px;
+}
+
+.input-email {
+  margin-left: 16px;
+}
+
+/*========================================*/
+
+
+
+
+/*SECTION-CONTACT-US======================*/
+
+.section-contact{
+  padding: 80px 4%;
+  border-top: 1px solid #1d201f;  
+}
+
+.contact__title {
+  font-size: 96px;
+  padding: 80px 0;
+}
+
+.circled-contact {
+  background-image: url("images/circled-contact.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__item {
+  margin-bottom: 80px;
+}
+
+.contact__description {
+  margin-top: 16px;
+  font-size: 34px;
+}
+
+/*========================================*/
+
+
+
+
 
 /*FOOTER==================================*/
 
