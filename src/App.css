@@ -72,6 +72,11 @@ ul {
   color: #ffffff;
 }
 
+.btn:hover {
+  background-color: #FF3C00;
+  color: #1d201f;
+}
+
 .link {
   position: relative;
   height: 34px;
@@ -288,10 +293,31 @@ ul {
   line-height: 72px;
 }
 
+
 .card__img {
+  position: relative;
   margin-top: 64px;
   height: 240px;
   width: 360px;
+  transition: transform 0.5s ease;
+  z-index: 1000;
+}
+
+.card__img--hidden {
+  position: relative;
+  height: 240px;
+  width: 360px;
+  margin-top: -268px;
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.card__wrapper:hover .card__img {
+  transform: scale(0.9); 
+}
+
+.card__wrapper:hover .card__img--hidden {
+  transform: rotate(-10deg); 
 }
 
 .card__btn {
@@ -334,6 +360,7 @@ ul {
   width: 48px;
   border-radius: 50%;
   background-color: #1d201f;
+  transition: transform 0.5s ease;
 }
 .inner-circle {
   position: absolute;
@@ -376,11 +403,33 @@ ul {
   margin-top: 64px;
 }
 
+.change-background {
+  background-color: #ff3c00;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
 /*========================================*/
+
+
 
 /*SECTION-SELECTED-WORK=====================*/
 
-.section-selected-work {
+.image-wrapper {
+  display: inline-block; 
+  overflow: hidden; 
+  border-radius: 8px;
+}
+
+.image-wrapper img {
+  transition: transform 0.3s ease; 
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.2); 
+  transform-origin: center center; 
 }
 
 .selected-work-row {
@@ -485,12 +534,12 @@ ul {
   border-radius: 8px;
 }
 
-.input-form{
+.input-form {
   margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:  8px;
+  padding: 8px 8px 8px 32px;
   border: 1px solid #1d201f;
   border-radius: 64px;
   width: 824px;
@@ -498,6 +547,10 @@ ul {
 
 .input-email {
   margin-left: 16px;
+  flex: 1; 
+  border: none; 
+  outline: none;
+  font-size: 24px
 }
 
 /*========================================*/

@@ -9,7 +9,9 @@ export default function SelectedWork() {
         <Row className="selected-work-row">
           <Col xxl={{ span: 5 }}>
             <div className="selected-work__item">
-              <img src="images/selected-work__img-1.png" alt="image" />
+              <div className="image-wrapper">
+                <img src="images/selected-work__img-1.png" alt="image" />
+              </div>
               <p className="pt-4">STRATEGY</p>
               <h5 className="font-size--default pt-2">AER Media</h5>
             </div>
@@ -24,7 +26,9 @@ export default function SelectedWork() {
             </h1>
             <div className="selected-work__item d-flex justify-content-center">
               <div>
-                <img src="images/selected-work__img-2.png" alt="image" />
+                <div className="image-wrapper">
+                  <img src="images/selected-work__img-2.png" alt="image" />
+                </div>
                 <p className="pt-4">DESIGN</p>
                 <h5 className="font-size--default pt-2">Valerie Wheeler</h5>
               </div>
@@ -34,14 +38,18 @@ export default function SelectedWork() {
         <Row className="selected-work-row">
           <Col xxl={{ span: 8 }}>
             <div className="selected-work__item">
-              <img src="images/selected-work__img-3.png" alt="image" />
+              <div className="image-wrapper">
+                <img src="images/selected-work__img-3.png" alt="image" />
+              </div>
               <p className="pt-4">STRATEGY</p>
               <h5 className="font-size--default pt-2">Luneer MGMT</h5>
             </div>
           </Col>
           <Col className="d-flex align-items-end" xxl={{ span: 3, offset: 1 }}>
             <div className="selected-work__item">
-              <img src="images/selected-work__img-4.png" alt="image" />
+              <div className="image-wrapper">
+                <img src="images/selected-work__img-4.png" alt="image" />
+              </div>
               <p className="pt-4">CONTENT</p>
               <h5 className="font-size--default pt-2">Social Blue Print</h5>
             </div>
@@ -51,7 +59,9 @@ export default function SelectedWork() {
           <Col className="d-flex">
             <div className="d-flex flex-column justify-content-between">
               <div className="selected-work__item">
-                <img src="images/selected-work__img-5.png" alt="image" />
+                <div className="image-wrapper">
+                  <img src="images/selected-work__img-5.png" alt="image" />
+                </div>
                 <p className="pt-4">STRATEGY</p>
                 <h5 className="font-size--default pt-2">Luneer MGMT</h5>
               </div>
@@ -67,14 +77,18 @@ export default function SelectedWork() {
           </Col>
           <Col className="d-flex align-items-end">
             <div className="selected-work__item">
-              <img src="images/selected-work__img-6.png" alt="image" />
+              <div className="image-wrapper">
+                <img src="images/selected-work__img-6.png" alt="image" />
+              </div>
               <p className="pt-4">STRATEGY</p>
               <h5 className="font-size--default pt-2">Luneer MGMT</h5>
             </div>
           </Col>
           <Col>
             <div className="selected-work__item">
-              <img src="images/selected-work__img-7.png" alt="image" />
+              <div className="image-wrapper">
+                <img src="images/selected-work__img-7.png" alt="image" />
+              </div>
               <p className="pt-4">DESIGN</p>
               <h5 className="font-size--default pt-2">Luneer MGMT</h5>
             </div>

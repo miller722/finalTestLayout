@@ -2,6 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function () {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="wrapper--grey wrapper--gap">
       <Container fluid className="footer reset-margin">
@@ -17,7 +23,7 @@ export default function () {
               <a className="font-size--default middle-social-link" href="">
                 Instagram
               </a>
-              <div className="link ">
+              <div className="link" onClick={scrollToTop}>
                 <span className="font-size--default">Back to top</span>
                 <div className="circle-btn"></div>
               </div>

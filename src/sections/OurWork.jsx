@@ -30,16 +30,19 @@ export default function OurWork() {
           cardTitle="Our 1-day design services"
           cardDescription="I NEED A VISUAL REVAMP ASAP"
           cardImg="images/card-img-1.png"
+          cardHiddenImg="images/card-img-hidden.png"
         />
         <Card
           cardTitle="Our retainer services"
           cardDescription="I NEED AN EXTERNAL MARKETING TEAM"
           cardImg="images/card-img-2.png"
+          cardHiddenImg="images/card-img-1.png"
         />
         <Card
           cardTitle="Let’s work together"
           cardDescription="I NEED TO INCREASE ONLINE PRESENCE"
           cardImg="images/card-img-3.png"
+          cardHiddenImg="images/card-img-2.png"
         />
       </div>
     </>

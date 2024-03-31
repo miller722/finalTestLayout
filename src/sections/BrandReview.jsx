@@ -33,7 +33,10 @@ export default function BrandReview() {
                 your business yourself.
               </p>
               <div className="input-form">
-                <p className="font-size--default input-email">Email</p>
+                <label className="font-size--default" htmlFor="email">
+                  Email
+                </label>
+                <input type="email" id="email" className="input-email" />
                 <ButtonPrimary description="SUBMIT" />
               </div>
             </div>
