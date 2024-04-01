@@ -4,8 +4,8 @@ import ButtonPrimary from "../components/ButtonPrimary";
 
 export default function ContactUs() {
   return (
-    <div className="section-contact wrapper--grey wrapper--gap">
-      <Container fluid>
+    <div className="wrapper--grey wrapper--gap">
+      <Container className="section-contact" fluid>
         <Row>
           <Col xxl={{ span: 5 }}>
             <div className="heading-primary d-flex align-items-center">

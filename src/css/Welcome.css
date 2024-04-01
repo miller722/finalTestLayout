@@ -1,0 +1,110 @@
+/*SECTION-WELCOME=========================*/
+
+.section-welcome {
+    margin-top: 12px;
+    border-bottom: 1px solid var(--main-color); 
+    border-top: 1px solid var(--main-color); 
+  }
+  
+  .section-welcome__design--pb {
+    position: relative;
+    top: 100px;
+  }
+  
+  .section-welcome__row {
+    height: 600px;
+    padding: 75px 0;
+  }
+  
+  .section-welcome__capslock {
+    font-size: 123px;
+    white-space: nowrap;
+    margin-top: -50px;
+  }
+  
+  .section-welcome__label {
+    width: 396px;
+  }
+  
+  .design-bgc {
+    margin-top: 80px;
+    height: 700px;
+    width: 100%;
+  }
+  
+  .design-bgc:hover {
+    transition: filter 3s ease;
+    filter: blur(25px); 
+  }
+  
+  
+  .image-wrapper .design-bgc--blur {
+    transition: transform 1s ease; 
+  }
+  
+  .image-wrapper:hover .design-bgc--blur {
+    transform: scale(1.1); 
+    transform-origin: center center; 
+  }
+  
+  .design__bg--animation{
+   height: 600px;
+  }
+  
+  .wrapper__animation {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+    pointer-events: none;
+  }
+  
+  .design-bgc:hover + .overlay {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  
+  .design__bg--animation,
+  .overlay h1 {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .design-bgc:hover + .overlay .design__bg--animation,
+  .design-bgc:hover + .overlay h1 {
+    opacity: 1;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .text-container h1 {
+    font-size: 133px;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .text-container h1:first-child {
+    left: -70%; 
+  }
+  
+  .text-container h1:last-child {
+    right: -70%; 
+  }
+  

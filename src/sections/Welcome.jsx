@@ -5,7 +5,7 @@ import ButtonPrimary from "../components/ButtonPrimary";
 export default function Welcome() {
   return (
     <>
-      <div className="wrapper--white wrapper--gap">
+      <div className="wrapper--gap">
         <Container fluid className="section-welcome">
           <Row className="section-welcome__row">
             <Col
@@ -34,9 +34,27 @@ export default function Welcome() {
         </Container>
       </div>
       <div className="section-welcome__design wrapper--grey wrapper--gap section-welcome__design--pb">
-        <div>
-          <img className="design-bgc" src="images/design-bgc.png" alt="image" />
+        <div className="wrapper__animation">
+          <div className="design-bgc image-wrapper">
+            <img
+              className="design-bgc--blur"
+              src="images/design-bgc.png"
+              alt="image"
+            />
+          </div>
+          <div className="overlay">
+            <img
+              className="design__bg--animation"
+              src="images/design-bg-animation.png"
+              alt="image"
+            />
+            <div className="text-container">
+              <h1>View</h1>
+              <h1>Case</h1>
+            </div>
+          </div>
         </div>
+
         <div className="d-flex justify-content-between align-items-start mt-3 pb-5">
           <p className="heading-primary d-flex align-items-center">
             <img src="images/star.png" alt="image" /> FEATURED PROJECT

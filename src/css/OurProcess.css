@@ -1,0 +1,84 @@
+/*SECTION-OURPROCESS=======================*/
+
+.section-our-process {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .process-step {
+    margin-bottom: 64px;
+    padding: 24px 80px 48px 142px;
+    border-bottom: 1px solid var(--main-color); 
+    position: relative;
+  }
+  
+  .wrapper__toggle {
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+  
+  .process-step__num {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    color: var(--hover-background-color);
+    font-size: 24px;
+  }
+  
+  .process-step__toggle {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: var(--main-color); 
+    transition: transform 0.5s ease;
+  }
+  .inner-circle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .inner-circle:nth-child(1) {
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .inner-circle:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .inner-circle:nth-child(3) {
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .process-step__heading {
+    margin: 32px 0;
+    font-size: 48px;
+  }
+  
+  .process-step__description {
+    padding: 32px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .process-step__description button {
+    margin-top: 64px;
+  }
+  
+  .change-background {
+    background-color: var(--hover-background-color);
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }

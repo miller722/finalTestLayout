@@ -4,7 +4,7 @@ import Card from "../components/CardOurWork";
 export default function OurWork() {
   return (
     <>
-      <div className="section-ourwork wrapper--white wrapper--gap">
+      <div className="section-ourwork wrapper--gap">
         <div className="d-flex align-items-center flex-column">
           <div className="circle-marker">
             <img src="images/circle-marker.png" alt="image" />

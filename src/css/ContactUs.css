@@ -1,0 +1,33 @@
+/*SECTION-CONTACT-US======================*/
+
+.section-contact{
+    padding: 80px 4%;
+    border-top: 1px solid var(--main-color);  
+  }
+  
+  .contact__title {
+    font-size: 96px;
+    padding: 80px 0;
+  }
+  
+  .circled-contact {
+    background-image: url("images/circled-contact.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contact__item {
+    margin-bottom: 80px;
+  }
+  
+  .contact__description {
+    margin-top: 16px;
+    font-size: 34px;
+  }
+
+  @media (max-width: 1700px) {
+    .contact__title {
+      font-size: 72px;
+      padding: 70px 0;
+    }
+  }

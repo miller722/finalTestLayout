@@ -1,0 +1,67 @@
+/*SECTION-SELECTED-WORK=====================*/
+
+.image-wrapper {
+    display: inline-block; 
+    overflow: hidden; 
+    border-radius: 8px;
+  }
+  
+  .image-wrapper img {
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-wrapper:hover img {
+    transform: scale(1.2); 
+    transform-origin: center center; 
+  }
+  
+  .image-wrapper:hover .design-bgc--inner {
+    transform: scale(0.8); /* Уменьшение масштаба на 20% */
+    transform-origin: center center;
+  }
+  
+  .selected-work-row {
+    padding-top: 120px;
+    margin-bottom: 120px;
+  }
+  
+  .selected-work__title {
+    margin-top: 80px;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 100px;
+    margin-bottom: 120px;
+  }
+  
+  .selected-work__item img {
+    border-radius: 8px;
+  }
+  
+  .more-work-wrapper {
+    border-top: 1px solid var(--main-color); 
+    width: 253px;
+  }
+  
+  .more-work__description {
+    font-size: 12px;
+    padding: 32px 0;
+  }
+
+  @media (max-width: 1700px) {
+    .selected-work__item img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .selected-work__title {
+      font-size: 72px;
+      line-height: 80px;
+      margin-top: 60px;
+      margin-bottom: 90px;
+    }
+
+    .selected-work-row {
+      padding-top: 90px;
+      margin-bottom: 90px;
+    }
+  }

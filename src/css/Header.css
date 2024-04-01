@@ -1,0 +1,37 @@
+
+/*HEADER=================================*/
+
+.header {
+    padding-top: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar-link {
+    margin-left: 30px;
+  }
+  
+  .navbar-link a {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--main-color); 
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .instagram__icon {
+    margin-right: 32px;
+  }

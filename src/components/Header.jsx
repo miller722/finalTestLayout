@@ -4,7 +4,7 @@ import ButtonPrimary from "./ButtonPrimary";
 export default function Header() {
   return (
     <>
-      <div className="header wrapper--white wrapper--gap">
+      <div className="header wrapper--gap">
         <h1 className="logo">PIPI-POOPOO</h1>
         <ul className="navbar">
           <li className="navbar-link">

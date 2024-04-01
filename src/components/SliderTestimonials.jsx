@@ -7,18 +7,19 @@ export default function SliderTestimonials() {
   return (
     <div>
       <Swiper
+        loop={true}
         effect={"coverflow"}
         grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
         coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
+          rotate: 0,
+          stretch: 160,
+          depth: 1000,
+          modifier: 0.2,
           slideShadows: false,
         }}
+        speed={1000}
         pagination={false}
+        slideToClickedSlide={true}
         modules={[EffectCoverflow, Pagination]}
       >
         <SwiperSlide>

@@ -1,0 +1,14 @@
+/*FOOTER==================================*/
+
+.footer {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid var(--main-color); 
+  }
+  
+  .middle-social-link {
+    margin-left: 10%;
+    margin-right: 30%;
+  }
+  
