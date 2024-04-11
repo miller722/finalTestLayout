@@ -7,7 +7,7 @@ export default function BrandReview() {
     <div className="wrapper--grey wrapper-section-brand-review">
       <div className="section-brand-review wrapper--gap">
         <Container fluid>
-          <Row>
+          <Row className="brand-review__container">
             <Col className="d-flex flex-column justify-content-between">
               <div>
                 <div className="heading-primary d-flex align-items-center">
@@ -38,7 +38,9 @@ export default function BrandReview() {
                     Email
                   </label>
                   <input type="email" id="email" className="input-email" />
-                  <ButtonPrimary description="SUBMIT" />
+                  <div className="input-form__button">
+                    <ButtonPrimary description="SUBMIT" />
+                  </div>
                 </div>
               </div>
             </Col>

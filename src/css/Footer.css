@@ -11,4 +11,20 @@
     margin-left: 10%;
     margin-right: 30%;
   }
+
+  @media (max-width: 1400px) {
+  
+  }
+  @media (max-width: 800px) {
+
+  }
+  @media (max-width: 500px) {
+    .middle-social-link {
+      margin-left: 1%;
+      margin-right: 3%;
+    }
+  }
+  @media (max-width: 375px) {
+    
+  }
   

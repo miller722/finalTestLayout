@@ -82,3 +82,60 @@
   .rotate {
     transform: rotate(90deg);
   }
+
+  @media (max-width: 800px) {
+    .section-our-process {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .process-step__heading {
+      margin: 16px 0;
+      font-size: 28px;
+    }
+    
+    .process-step__description {
+      padding: 16px;
+    }
+    
+    .process-step__description button {
+      margin-top: 48px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .process-step {
+      margin-bottom: 24px;
+      padding: 20px 20px 20px 40px;
+    }
+    .section-our-process {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .process-step__heading {
+      margin-top: 28px;
+      margin-bottom: 14px;
+      font-size: 20px;
+    }
+    
+    .process-step__description {
+      padding: 16px;
+      text-align: justify;
+    }
+    
+    .process-step__description button {
+      margin-top: 24px;
+    }
+    .wrapper__toggle {
+      position: absolute;
+      top: 9px;
+      right: 0;
+    }
+    
+    .process-step__num {
+      position: absolute;
+      top: 15px;
+      left: 0;
+      color: var(--hover-background-color);
+      font-size: 24px;
+    }
+  }

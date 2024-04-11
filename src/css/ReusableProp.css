@@ -99,3 +99,28 @@
   .heading-primary img {
     margin-right: 16px;
   }
+
+  @media (max-width: 800px) {
+    .btn {
+      position: relative;
+      height: 58px;
+      width: 228px;
+      border-radius: 40px;
+      background-color: var(--main-color); 
+    }
+    .font-size--default {
+      font-size: 18px;
+    }
+    .heading-primary {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .font-size--default {
+      font-size: 18px;
+    }
+    .heading-primary {
+      font-size: 12px;
+    }
+  }

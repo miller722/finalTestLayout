@@ -35,3 +35,46 @@
   .section-about__description-p {
     margin-bottom: 80px;
   }
+
+
+  @media (max-width: 800px) {
+    .section-about {
+      padding-top: 120px;
+      padding-bottom: 60px;
+    }
+    .section-about-heading {
+      margin-bottom: 60px;
+    }
+    .section-about__title h2 {
+      font-size: 40px;
+    }
+    .section-about__description--mr {
+      margin-right: 13px;
+    }
+    
+    .section-about__description-p {
+      margin-bottom: 18px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .section-about__title h2 {
+      font-size: 24px;
+    }
+    .section-about__description--mr {
+      margin-right: 3px;
+    }
+    
+    .section-about__description-p {
+      margin-bottom: 8px;
+    }
+    .section-about__description button {
+      margin: 20px 0;
+    }
+
+    .pc-version-button {
+      display: none;
+    }
+
+    
+  }

@@ -5,8 +5,8 @@ import ButtonPrimary from "../components/ButtonPrimary";
 export default function ContactUs() {
   return (
     <div className="wrapper--grey wrapper--gap">
-      <Container className="section-contact" fluid>
-        <Row>
+      <Container fluid>
+        <Row className="section-contact">
           <Col xxl={{ span: 5 }}>
             <div className="heading-primary d-flex align-items-center">
               <img src="images/section-contact-marker.png" alt="image" />

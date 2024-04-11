@@ -36,8 +36,32 @@
   }
 
   @media (max-width: 1700px) {
+    .testimonials__slider {
+      margin-top: 60px;
+      width: 80%;
+    }
     .testimonials__slider-description {
       font-size: 72px;
       line-height: 80px;
+    }
+  }
+  @media (max-width: 800px) {
+    .testimonials__slider-description {
+      font-size: 48px;
+      line-height: 50px;
+    }
+  }
+  @media (max-width: 500px) {
+    .testimonials__slider {
+      margin-top: 40px;
+      width: 80%;
+    }
+    .testimonials__slider-description {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .testimonials__author{
+      font-size: 18px;
+      margin-left: 16px;
     }
   }

@@ -65,3 +65,41 @@
       margin-bottom: 90px;
     }
   }
+
+  @media (max-width: 800px) {
+    .selected-work__title {
+      font-size: 36px;
+      line-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 45px;
+    }
+
+    .selected-work-row {
+      padding-top: 45px;
+      margin-bottom: 45px;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+    .selected-work__title {
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .selected-work-row {
+      padding-top: 30px;
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+
+    .more-work-wrapper {
+      margin-bottom: 30px;
+    }
+
+    .selected-work__item h5 {
+      margin-bottom: 30px;
+    }
+  }

@@ -1,7 +1,6 @@
 /*SECTION-WELCOME=========================*/
 
 .section-welcome {
-    margin-top: 12px;
     border-bottom: 1px solid var(--main-color); 
     border-top: 1px solid var(--main-color); 
   }
@@ -108,3 +107,40 @@
     right: -70%; 
   }
   
+  @media (max-width: 1100px) {
+    .section-welcome__capslock {
+      font-size: 60px;
+      margin-top: -5px;
+    }
+    
+  }
+  @media (max-width: 800px) {
+    .section-welcome__capslock {
+      font-size: 45px;
+      margin-top: -15px;
+    }
+    .section-welcome__row {
+      flex-direction: column-reverse;
+      height: 100%;
+    }
+    .section-welcome__row h5{
+      margin: 30px 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .section-welcome__row{
+      flex-direction: column-reverse;
+    }
+    .section-welcome__row h5{
+      margin-bottom: 20px;
+    }
+
+    .section-welcome__row p{
+      display: none;
+    }
+
+    .section-welcome__label {
+      width: 196px;
+    }
+  }

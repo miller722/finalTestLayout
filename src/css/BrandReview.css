@@ -30,14 +30,16 @@
    }
    
    .input-form {
+    position: relative;
      margin-top: 64px;
      display: flex;
      align-items: center;
      justify-content: space-between;
+     height: 72px;
      padding: 8px 8px 8px 32px;
      border: 1px solid var(--main-color);
      border-radius: 64px;
-     width: 824px;
+     width: 100%;
    }
    
    .input-email {
@@ -46,6 +48,11 @@
      border: none; 
      outline: none;
      font-size: 24px
+   }
+
+   .input-form__button {
+     position: absolute;
+     right: 8px;
    }
    
    @media (max-width: 1700px) {
@@ -64,10 +71,37 @@
       border-radius: 8px;
       max-width: 100%;
     }
-
-    .input-email {
-      margin-left: -8px;
+  }
+  @media (max-width: 800px) {
+    .brand-review__title {
+      margin-top: 60px;
+      font-size: 48px;
+    }
+    .brand-review__container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
   }
+   
+  @media (max-width: 500px) {
+    .wrapper-section-brand-review {
+      padding-bottom: 5px;
+    }
+    .brand-review__title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .brand-review__description {
+      max-width: 100%;
+    }
+    .input-form {
+      max-width: 100%;
+      padding-left: 16px;
+      margin: 20px 0;
+    }
+  }
+   
    
    
