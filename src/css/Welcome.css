@@ -106,6 +106,9 @@
   .text-container h1:last-child {
     right: -70%; 
   }
+  .design-bgc--sm {
+    display: none;
+  }
   
   @media (max-width: 1100px) {
     .section-welcome__capslock {
@@ -126,6 +129,13 @@
     .section-welcome__row h5{
       margin: 30px 0;
     }
+    .wrapper__animation {
+      display: none;
+    }
+    .design-bgc--sm {
+      display: block;
+      max-width: 100%;
+    }
   }
 
   @media (max-width: 500px) {
@@ -142,5 +152,12 @@
 
     .section-welcome__label {
       width: 196px;
+    }
+    .wrapper__animation {
+      display: none;
+    }
+    .design-bgc--sm {
+      display: block;
+      max-width: 100%;
     }
   }

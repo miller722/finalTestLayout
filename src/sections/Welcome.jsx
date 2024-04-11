@@ -54,7 +54,11 @@ export default function Welcome() {
             </div>
           </div>
         </div>
-
+        <img
+          className="design-bgc--sm"
+          src="images/design-bgc.png"
+          alt="image"
+        />
         <div className="d-flex justify-content-between align-items-start mt-3 pb-5">
           <p className="heading-primary d-flex align-items-center">
             <img src="images/star.png" alt="image" /> FEATURED PROJECT
